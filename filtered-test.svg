@@ -1,0 +1,14 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" >
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+    <defs>
+        <filter x="-10%" y="-10%" width="120%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" filterUnits="objectBoundingBox"
+                xlink:actuate="onLoad" height="120%" id="Filter01" xlink:show="other">
+            <feOffset dx="5" width="120%" dy="5" height="120%" result="fpr1" in="SourceAlpha"/>
+            <feMorphology operator="dilate" result="fpr2" in="fpr1" radius="5"/>
+            <feColorMatrix values="200" type="hueRotate" result="fpr3" in="fpr2"/>
+            <feConvolveMatrix order="3" preserveAlpha="false" result="fpr4" kernelUnitLength="1" in="fpr3" edgeMode="duplicate"
+                              kernelMatrix="50 0 0 0 1 0 -36 0 0" bias="0" divisor="1" targetX="1" targetY="1"/>
+        </filter>
+    </defs>
+</svg>
