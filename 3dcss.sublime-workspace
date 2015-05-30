@@ -1,0 +1,219 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/awalker/Downloads/optimised (1).svg",
+		"/Users/awalker/Documents/Prezi/svg-map.svg",
+		"/Users/awalker/Documents/Prezi/collingwood.svg",
+		"/Users/awalker/Documents/Prezi/graph-aug.svg",
+		"/Users/awalker/Documents/Prezi/graph-dec.svg",
+		"/Users/awalker/Documents/Prezi/graph-oct.svg",
+		"/Users/awalker/Documents/Prezi/graph-june.svg",
+		"/Users/awalker/Documents/Prezi/graph-thumbnail.css",
+		"/Users/awalker/Documents/Prezi/control.html",
+		"/Users/awalker/Documents/open-streets-dc.svg"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"[caption id=\"attachment_96996\" align=\"aligncenter\" width=\"688\"]",
+			"<span class=\"counter\">",
+			"</span>",
+			"<span contenteditable=\"\"></span>",
+			" fill=\"rgb(193, 193, 193)\" font-family=\"Helvetica, sans-serif\" font-size=\"18\" ",
+			"id=\"bezier8\"",
+			"bezier8",
+			"}\n",
+			"bezier8",
+			" fill=\"rgb(193, 193, 193)\" font-family=\"Helvetica, sans-serif\" font-size=\"12\" ",
+			" stroke=\"rgb(208, 208, 208)\" stroke-miterlimit=\"4\" fill=\"rgb(0, 0, 0)\" ",
+			" stroke=\"rgb(83, 83, 83)\" stroke-miterlimit=\"4\" fill=\"rgb(0, 0, 0)\" ",
+			" fill=\"rgb(0, 0, 0)\" font-family=\"Helvetica, sans-serif\" font-size=\"20\" ",
+			" stroke=\"none\" fill=\"rgb(255, 255, 255)\" ",
+			" stroke=\"none\" fill=\"rgb(194, 229, 147)\" ",
+			" stroke=\"rgb(227, 176, 24)\" stroke-width=\"20\" stroke-miterlimit=\"4\" fill=\"none\" ",
+			" stroke=\"rgb(197, 175, 175)\" stroke-width=\"15\" stroke-linecap=\"round\" stroke-linejoin=\"bevel\" stroke-miterlimit=\"4\" fill=\"none\" ",
+			" stroke=\"rgb(197, 175, 175)\" stroke-width=\"20\" stroke-miterlimit=\"4\" fill=\"none\" ",
+			" class=\"streets-15",
+			" stroke=\"rgb(197, 175, 175)\" stroke-width=\"15\" stroke-miterlimit=\"4\" fill=\"none\" ",
+			"27.45098%",
+			"67.45098%",
+			" stroke=\"rgb(187, 241, 131)\" stroke-width=\"3\" fill=\"none\" ",
+			"fill=\"rgb(255, 255, 255)\" font-family=\"LucidaGrande-Bold, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif\" font-weight=\"bold\" font-size=\"16\"",
+			"fill=\"rgb(0, 0, 0)\" font-family=\"LucidaGrande-Bold, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif\" font-weight=\"bold\" font-size=\"16\"",
+			"</h3>",
+			"<br />",
+			"<p><a href",
+			"</a><br />",
+			"<br />",
+			"</strong>\n</p>",
+			"<p><strong>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"[caption id=\"attachment_96996\" align=\"aligncenter\" width=\"688\"]",
+			" ",
+			" class=\"axis-label\" ",
+			" class=\"text\" ",
+			" class=\"axis\" ",
+			" class=\"markers\" ",
+			" class=\"text small\" ",
+			" class=\"label\" ",
+			" class=\"park\" ",
+			" class=\"arterial-20\" ",
+			" class=\"streets-15\" ",
+			" class=\"streets-20\" ",
+			" class=\"streets-15\" ",
+			" class=\"streets-15 ",
+			"27.5%",
+			"67.5%",
+			" class=\"pitch\" ",
+			"class=\"text\"",
+			"</a></h3>",
+			"",
+			"<h3><a href",
+			"</h3>",
+			"",
+			"</h4>",
+			"<h4>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
