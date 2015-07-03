@@ -44,11 +44,11 @@
     transform-origin: 0% 0%;
     width: 30px;
     height: 400px;
-    background-image: -webkit-linear-gradient(left, white 0%, #f7f7fa 100%);
-    background-image: linear-gradient(to right, white 0%, #f7f7fa 100%); }
+    background-image: -webkit-linear-gradient(right, white 0%, #f7f7fa 100%);
+    background-image: linear-gradient(to left, white 0%, #f7f7fa 100%); }
   .book_front:before, .book_back:before {
-    background-image: -webkit-linear-gradient(left, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0.56) 100%), url(none), url("http://i.imgur.com/qh2HMMe.png"), url(none);
-    background-image: linear-gradient(to right, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0.56) 100%), url(none), url("http://i.imgur.com/qh2HMMe.png"), url(none);
+    background-image: url(/images/pano1.png), url(none), url("http://i.imgur.com/qh2HMMe.png"), url(none);
+    background-image: url(/images/pano1.png), url(none), url("http://i.imgur.com/qh2HMMe.png"), url(none);
     background-position: -400% 100%, right top, center top, left top;
     background-size: 1000% 200%, auto 100%, auto 100%, auto 100%;
     transform: rotateY(-90deg) translateX(-30px); }
@@ -60,8 +60,8 @@
   width: 304px;
   height: 400px;
   z-index: -1;
-  background-image: -webkit-linear-gradient(left, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0) 100%), url(none), url(none), url("http://i.imgur.com/qh2HMMe.png");
-  background-image: linear-gradient(to right, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0) 100%), url(none), url(none), url("http://i.imgur.com/qh2HMMe.png");
+  background-image: url(/images/pano1.png), url(none), url(none), url("http://i.imgur.com/qh2HMMe.png");
+  background-image: url(/images/pano1.png), url(none), url(none), url("http://i.imgur.com/qh2HMMe.png");
   background-position: -400% 100%, right top, center top, left top;
   background-size: 500% 200%, auto 100%, auto 100%, auto 100%; }
   .book_back:before {
@@ -78,8 +78,8 @@
 
 .book_front {
   z-index: 1;
-  background-image: -webkit-linear-gradient(left, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0) 100%), url("http://i.imgur.com/qh2HMMe.png"), url(none), url(none);
-  background-image: linear-gradient(to right, rgba(250, 248, 247, 0) 0%, rgba(251, 250, 249, 0.51) 26%, rgba(5, 4, 4, 0.56) 70%, rgba(252, 252, 252, 0) 100%), url("http://i.imgur.com/qh2HMMe.png"), url(none), url(none);
+  background-image: url(/images/pano1.png), url("http://i.imgur.com/qh2HMMe.png"), url(none), url(none);
+  background-image: url(/images/pano1.png), url("http://i.imgur.com/qh2HMMe.png"), url(none), url(none);
   background-position: -250% 100%, right top, center top, left top;
   background-size: 200% 200%, auto 100%, auto 100%, auto 100%;
   width: 304px;

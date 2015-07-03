@@ -68,15 +68,15 @@ $perspective: $bookheight*3.5;
     transform-origin: 0% 0%;
     width: $bookspine;
     height: $bookheight;
-    @include background-image(linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(247,247,250,1) 100%)); //default fallback offwhite
+    @include background-image(linear-gradient(right, rgba(255,255,255,1) 0%, rgba(247,247,250,1) 100%)); //default fallback offwhite
   }
   &:before{ // spine
-    @include background-image(linear-gradient(left, 
+    @include background-image(/*linear-gradient(left, 
     rgba(250,248,247,0) 0%, 
     rgba(251,250,249,0.51) 26%, 
     rgba(5,4,4,0.56) 70%, 
-    rgba(252,252,252,0.56) 100%), 
-    url(none), url($book_graphic), url(none));
+    rgba(252,252,252,0.56) 100%),*/ 
+    url(/images/pano1.png), url(none), url($book_graphic), url(none));
     background-position: -400% 100%, right top, center top, left top ;
     background-size: 1000% 200%, auto 100%, auto 100%, auto 100%; 
     transform: rotateY(-90deg) translateX(-$bookspine);
@@ -92,12 +92,12 @@ $perspective: $bookheight*3.5;
   width: $bookwidth;
   height: $bookheight;  
   z-index:-1;
-  @include background-image(linear-gradient(left, 
+  @include background-image(/*linear-gradient(left, 
     rgba(250,248,247,0) 0%, 
     rgba(251,250,249,0.51) 26%, 
     rgba(5,4,4,0.56) 70%, 
-    rgba(252,252,252,0) 100%), 
-    url(none), url(none), url($book_graphic));
+    rgba(252,252,252,0) 100%), */
+    url(/images/pano1.png), url(none), url(none), url($book_graphic));
   background-position: -400% 100%, right top, center top, left top ;
     background-size: 500% 200%, auto 100%, auto 100%, auto 100%; 
   
@@ -119,12 +119,12 @@ $perspective: $bookheight*3.5;
 }
 .book_front{
   z-index: 1; 
-  @include background-image(linear-gradient(left, 
+  @include background-image(/*linear-gradient(left, 
     rgba(250,248,247,0) 0%, 
     rgba(251,250,249,0.51) 26%, 
     rgba(5,4,4,0.56) 70%, 
-    rgba(252,252,252,0) 100%), 
-    url($book_graphic), url(none), url(none));
+    rgba(252,252,252,0) 100%), */
+    url(/images/pano1.png), url($book_graphic), url(none),  url(none));
   background-position: -250% 100%, right top, center top, left top ;
   background-size: 200% 200%, auto 100%, auto 100%, auto 100%; 
   width: $bookwidth;
